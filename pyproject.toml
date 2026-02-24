@@ -1,0 +1,14 @@
+[project]
+name = "localsentinel"
+version = "0.1.0"
+dependencies = ["typer"]
+
+[build-system]
+requires = ["setuptools>=65.5.0","wheel"]
+build-backend = "setuptools.build_meta"
+
+[project.scripts]
+localsentinel = "localsentinel.main:app"
+
+[project.optional-dependencies]
+test = ["pytest"]

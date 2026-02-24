@@ -1,0 +1,8 @@
+[
+  "setuptools.build_meta",
+  "setuptools.build_meta:__legacy__",
+  "poetry.core.masonry.api",
+  "flit_core.buildapi",
+  "hatchling.build"
+]
+
